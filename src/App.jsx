@@ -1,35 +1,58 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { BrowserRouter } from 'react-router-dom';
+import Home from "./pages/home-espace/home";
+import BanqueDesang from './pages/home-espace/banquedesang';
+import Login from './pages/home-espace/login';
+import Hopital from "./pages/home-espace/hopital";
+import Donneur from './pages/home-espace/donneur';
+import LayoutHome from './components/layout/layout-home';
+import { Routes} from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import UserContext from './context/UserContext';
+//import AllProduct from './pages/admin-espace/all-products';
+//import CreateProduct from './pages/admin-espace/create-product';
+//import DeleteProduct from './pages/admin-espace/delete-product';
+//import UpdateProduct from './pages/admin-espace/update-product';
 
-function App() {
-  const [count, setCount] = useState(0)
+
+
+export default function App() {
+
+  const [pseudo, setPseudo] = useState(null);
+
+  const handleLoginSubmit = (userName) => {
+    setPseudo(userName);
+  }
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
 
-export default App
+        <UserContext.Provider value={{isLogged: true, pseudo: pseudo}}>
+          <BrowserRouter>
+          <main>
+                        <Routes>
+                          <Route
+                            path="/"
+                            element={<Login onLoginSubmit={handleLoginSubmit} />}
+                          />
+                          <Route path="/" element={<LayoutHome />}>
+                            <Route path="/home" element={<Home/>}/>
+                            <Route path="/banquedesang" element={<BanqueDesang/>}/>
+                            <Route path="/hopital" element={<Hopital/>}/>
+                            <Route path="/donneur" element={<Donneur/>}/>
+                            <Route path="/produitssanguins" element={<Sangs/>}/>
+                                  <Route path="/SangList" element={<SangsList />}/>
+                                  <Route path=":id" element={<SingleSang />}/>
+
+                          
+                          </Route>
+                          
+                        </Routes>
+                    </main>
+           </BrowserRouter>
+
+      </UserContext.Provider> 
+     
+  )
+  
+}
