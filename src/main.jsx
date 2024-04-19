@@ -15,6 +15,7 @@ import AllSang from './pages/admin-espace/all-sang.jsx';
 import CreateSang from './pages/admin-espace/create-sang.jsx';
 import DeleteSang from './pages/admin-espace/delete-sang.jsx';
 import UpdateSang from './pages/admin-espace/update-sang.jsx';
+import Connexion from './pages/home-espace/login.jsx';
 
 
 
@@ -50,6 +51,11 @@ const router = createBrowserRouter([
       {
         path: "/donneur",
          element: <Donneur/>
+       },
+
+       {
+        path: "/connexion",
+         element: <Connexion/>
        },
 
       //  {

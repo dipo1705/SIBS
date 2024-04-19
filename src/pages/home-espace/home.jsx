@@ -7,9 +7,9 @@ function Accueil(){
         <>
             <div>
                
-            <h2>A propos de nous</h2>
-            <div><img src="\src\assets\blood-bank-management-system-project-using-java-and-database.jpeg" /></div>
-            <div>Ceci est une application de gestion des produits sanguins</div>
+          
+            <div className="size-auto"><img src="\src\assets\blood-bank-management-system-project-using-java-and-database.jpeg" /></div>
+         
 
             </div>
         </>

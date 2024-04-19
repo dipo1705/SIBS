@@ -40,6 +40,7 @@ export default function App() {
                             <Route path="/banquedesang" element={<BanqueDesang/>}/>
                             <Route path="/hopital" element={<Hopital/>}/>
                             <Route path="/donneur" element={<Donneur/>}/>
+                            <Route path="/connexion" element={<Connexion/>}/>
                             <Route path="/produitssanguins" element={<Sangs/>}/>
                                   <Route path="/SangList" element={<SangsList />}/>
                                   <Route path=":id" element={<SingleSang />}/>
