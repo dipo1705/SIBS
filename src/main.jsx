@@ -16,16 +16,18 @@ import CreateSang from './pages/admin-espace/create-sang.jsx';
 import DeleteSang from './pages/admin-espace/delete-sang.jsx';
 import UpdateSang from './pages/admin-espace/update-sang.jsx';
 import Connexion from './pages/home-espace/login.jsx';
+import Stock from './pages/home-espace/stock.jsx';
+import Cover from './pages/home-espace/cover.jsx';
 
 
 
 
 
 const router = createBrowserRouter([
-  // {
-  //   path: "/",
-  //   element: <Login/>
-  // },
+  {
+    path: "/",
+    element: <Connexion/>,
+  },
 
 
   {
@@ -51,6 +53,11 @@ const router = createBrowserRouter([
       {
         path: "/donneur",
          element: <Donneur/>
+       },
+
+       {
+        path: "/stock",
+         element: <Stock/>
        },
 
        {

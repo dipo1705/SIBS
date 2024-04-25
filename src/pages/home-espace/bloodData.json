@@ -1,0 +1,31 @@
+{
+    "current-user":[{}],
+    "blood":[
+        {
+            "id": "1",
+            "Type_Produit  ": "sang entier",
+            "Groupe_Sanguin":"O+",
+            "Rhésus":"O+",
+            "Quantité_Disponible":"10",
+            "Prix":"25$"
+            
+        },
+
+        {
+            "id": "2",
+            "Type_Produit  ": "globules rouges",
+            "Groupe_Sanguin":"A+",
+            "Rhésus":"A+",
+            "Quantité_Disponible":"30",
+            "Prix":"45$"
+        },
+
+        {"id": "3",
+        "Type_Produit  ": "plaquettes",
+        "Groupe_Sanguin":"AB+",
+        "Rhésus":"AB+",
+        "Quantité_Disponible":"50",
+        "Prix":"40$"
+        }  
+    ]
+}

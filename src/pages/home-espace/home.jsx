@@ -8,7 +8,7 @@ function Accueil(){
             <div>
                
           
-            <div className="size-auto"><img src="\src\assets\blood-bank-management-system-project-using-java-and-database.jpeg" /></div>
+            <div className="size-auto  pb-50"><img src="\src\assets\blood-bank-management-system-project-using-java-and-database.jpeg" /></div>
          
 
             </div>

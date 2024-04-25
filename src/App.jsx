@@ -10,6 +10,7 @@ import LayoutHome from './components/layout/layout-home';
 import { Routes} from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import UserContext from './context/UserContext';
+import Cover from './pages/home-espace/cover';
 //import AllProduct from './pages/admin-espace/all-products';
 //import CreateProduct from './pages/admin-espace/create-product';
 //import DeleteProduct from './pages/admin-espace/delete-product';
@@ -35,15 +36,17 @@ export default function App() {
                             path="/"
                             element={<Login onLoginSubmit={handleLoginSubmit} />}
                           />
+                          <Route path="/" element={<Cover/>}></Route>
                           <Route path="/" element={<LayoutHome />}>
                             <Route path="/home" element={<Home/>}/>
                             <Route path="/banquedesang" element={<BanqueDesang/>}/>
                             <Route path="/hopital" element={<Hopital/>}/>
                             <Route path="/donneur" element={<Donneur/>}/>
+                            <Route path="/stock" element={<Stock/>}/>
                             <Route path="/connexion" element={<Connexion/>}/>
-                            <Route path="/produitssanguins" element={<Sangs/>}/>
+                            {/* <Route path="/produitssanguins" element={<Sangs/>}/>
                                   <Route path="/SangList" element={<SangsList />}/>
-                                  <Route path=":id" element={<SingleSang />}/>
+                                  <Route path=":id" element={<SingleSang />}/> */}
 
                           
                           </Route>
