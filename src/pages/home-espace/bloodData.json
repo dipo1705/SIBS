@@ -3,6 +3,7 @@
     "blood":[
         {
             "id": "1",
+            "Banque de sang":"Maman Yemo",
             "Type_Produit  ": "sang entier",
             "Groupe_Sanguin":"O+",
             "Rhésus":"O+",
@@ -13,6 +14,7 @@
 
         {
             "id": "2",
+            "Banque de sang":"Roi Baudouin",
             "Type_Produit  ": "globules rouges",
             "Groupe_Sanguin":"A+",
             "Rhésus":"A+",
@@ -21,6 +23,7 @@
         },
 
         {"id": "3",
+        "Banque de sang":"Mabanga",
         "Type_Produit  ": "plaquettes",
         "Groupe_Sanguin":"AB+",
         "Rhésus":"AB+",

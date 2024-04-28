@@ -1,23 +1,20 @@
-import NavbarHome from "../../components/navbar/navbar-home";
-import {NavLink} from "react-router-dom";
 
 
-function Connexion() {
+function BoutonConnexion() {
   
     return (
 
  <div>    
-
+<NavbarHome/>
        
 <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 pt-5 pb-5 ">
        
        <div className="sm:mx-auto sm:w-full sm:max-w-sm p-70 ">
             
-                 <h2 className=" pt-2 pb-3 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+                 <h2 className=" pt-3 pb-3 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
                    Connectez-vous à votre Compte
                  </h2>
                </div>
-               <NavLink to = "/home"><button className="p-2 w-40 rounded-full bg-red-600  hover:bg-gray-400 text-white">Continuez la visite</button></NavLink>
        
                <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm pt-5 pb-10">
                  <form className="space-y-6 " action="#" method="POST">
@@ -84,4 +81,4 @@ function Connexion() {
 }
 
 
-export default Connexion;
+export default BoutonConnexion;

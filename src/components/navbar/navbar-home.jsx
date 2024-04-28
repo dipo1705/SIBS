@@ -15,35 +15,31 @@ function NavbarHome(){
 
             <ul className="flex gap-10  justify-around  ">
 
-                <li className="bg-gray-400 hover:bg-red-300 text-white p-2 ">
+                <li className=" w-25 hover:bg-gray-300 text-black p-2 text-center font-semibold ">
                     <NavLink to = "/home">Home</NavLink>
                 </li>
 
-                <li className="bg-gray-400 hover:bg-red-300 text-white p-2" >
+                <li className=" w-25 hover:bg-gray-300 text-black p-2 text-center font-semibold" >
                     
                     <NavLink to = "/banquedesang">Banque de Sang</NavLink>
                 </li>
                 
 
-                <li className="bg-gray-400 hover:bg-red-300 text-white p-2">
+                <li className=" w-25 hover:bg-gray-300 text-black p-2 text-center font-semibold">
                     <NavLink to = "/hopital">Hopital</NavLink>
                 </li>
 
-                <li className="bg-gray-400 hover:bg-red-300 text-white p-2">
+                <li className=" w-25 hover:bg-gray-300 text-black p-2 text-center font-semibold">
                     <NavLink to = "/donneur">Donneur</NavLink>
                 </li>
 
-                <li className="bg-gray-400 hover:bg-red-300 text-white p-2">
+                <li className="w-25 hover:bg-gray-300 text-black p-2 text-center font-semibold">
                     <NavLink to = "/stock">Stock</NavLink>
-                </li>
-
-                <li className="bg-gray-400 hover:bg-red-300 text-white p-2">
-                    <NavLink to = "/connexion">Connexion</NavLink>
                 </li>
 
                 
             </ul>
-            <button className="p-2 w-36 rounded-full bg-red-600  hover:bg-gray-400 text-white">Connexion</button>
+            <NavLink to = "/connexion"><button className="p-2 w-36 rounded-full bg-red-600  hover:bg-gray-400 text-white">Connexion</button></NavLink>
         </nav>
 
 

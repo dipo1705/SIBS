@@ -36,7 +36,7 @@ export default function App() {
                             path="/"
                             element={<Login onLoginSubmit={handleLoginSubmit} />}
                           />
-                          <Route path="/" element={<Cover/>}></Route>
+                          <Route path="/" element={<Connexion/>}></Route>
                           <Route path="/" element={<LayoutHome />}>
                             <Route path="/home" element={<Home/>}/>
                             <Route path="/banquedesang" element={<BanqueDesang/>}/>
@@ -44,9 +44,7 @@ export default function App() {
                             <Route path="/donneur" element={<Donneur/>}/>
                             <Route path="/stock" element={<Stock/>}/>
                             <Route path="/connexion" element={<Connexion/>}/>
-                            {/* <Route path="/produitssanguins" element={<Sangs/>}/>
-                                  <Route path="/SangList" element={<SangsList />}/>
-                                  <Route path=":id" element={<SingleSang />}/> */}
+                           
 
                           
                           </Route>

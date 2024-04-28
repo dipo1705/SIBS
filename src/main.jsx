@@ -17,7 +17,7 @@ import DeleteSang from './pages/admin-espace/delete-sang.jsx';
 import UpdateSang from './pages/admin-espace/update-sang.jsx';
 import Connexion from './pages/home-espace/login.jsx';
 import Stock from './pages/home-espace/stock.jsx';
-import Cover from './pages/home-espace/cover.jsx';
+import BoutonConnexion from './pages/home-espace/boutonconnexion.jsx';
 
 
 
@@ -65,18 +65,7 @@ const router = createBrowserRouter([
          element: <Connexion/>
        },
 
-      //  {
-      //   path: "/produitssanguins",
-      //   element: <Sangs/>,
-      //   children:[
-      //     {path: "",
-      //     element: <SangsList/>
-      //   },
       
-      //   {path: ":id",
-      //   element: <SingleSang/>
-      // }],
-      // }
 
       
       
