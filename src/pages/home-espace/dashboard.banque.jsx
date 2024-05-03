@@ -8,7 +8,7 @@ function DashboardBanque(){
         <div class="flex gap-10 pt-10">
             
          <div class="max-w-sm rounded overflow-hidden shadow-lg">
-   <img class="w-full" src="src\assets\Banques-de-sang.jpg" alt="donneur"/>
+   <img class="w-full" src="https://res.cloudinary.com/dz4hmepqo/image/upload/v1714759610/Banques-de-sang_fxdrez.jpg" alt="donneur"/>
   <div class="px-6 py-4">
      <div class="font-bold text-xl mb-2">Banque de sang</div>
     <p class="text-gray-700 text-base">
