@@ -1,8 +1,9 @@
-import {NavLink} from "react-router-dom";
 
 
 
-function DashboardDonneur(){
+
+
+function DonneurConnexion(){
 
     return(
 
@@ -13,24 +14,24 @@ function DashboardDonneur(){
   <div class="px-6 py-4">
      <div class="font-bold text-xl mb-2">Donneur Bénévole</div>
     <p class="text-gray-700 text-base">
-      Devenez Donneur bénévole en vous inscrivant
+    Vos informations personnelles
     </p>
    </div>
    <div class="px-6 pt-8 pb-2">
-   <NavLink to = "/donneurform"><button className="p-2 w-32 rounded-full bg-gray-400 hover:bg-red-600 text-white">Inscription</button></NavLink>
+   <button className="p-2 w-32 rounded-full bg-gray-400 hover:bg-red-600 text-white">Afficher mes informations</button>
   </div>
 </div>
 
         <div><div class="max-w-sm rounded overflow-hidden shadow-lg">
    <img class="w-full h-62" src= "src\assets\rdv_bleu-removebg-preview.png" alt="rdv"/>
   <div class="px-6 py-4">
-     <div class="font-bold text-xl mb-2 pt-12 pb-3">Prendre Rendez-vous</div>
+     <div class="font-bold text-xl mb-2 pt-12 pb-3">Vos Rendez-vous</div>
     <p class="text-gray-700 text-base">
-    Pour faire un don de sang, prenez rendez-vous
+    Liste de vos rendez-vous
     </p>
    </div>
    <div class="px-6 pt-4 pt-7 pb-10">
-   <button className="p-2 w-46 rounded-full bg-gray-400 hover:bg-red-600 text-white">Prendre Rendez-vous</button>
+   <button className="p-2 w-46 rounded-full bg-gray-400 hover:bg-red-600 text-white">Afficher mes Rendez-vous</button>
   </div>
   </div>
 
@@ -39,13 +40,13 @@ function DashboardDonneur(){
         <div><div class="max-w-sm rounded overflow-hidden shadow-lg">
    <img class="w-full" src="src\assets\Dondusang_actu.jpg" alt="don de sang"/>
   <div class="px-6 py-4">
-     <div class="font-bold text-xl mb-2 pt-3 pb-6">Evénements</div>
+     <div class="font-bold text-xl mb-2 pt-3 pb-6">Vos alertes</div>
     <p class="text-gray-700 text-base">
-    Participez aux événements de don de sang
+    liste de vos alertes 
     </p>
    </div>
    <div class="px-6 pt-5 pb-11">
-   <button className="p-2 w-46 rounded-full bg-gray-400 hover:bg-red-600 text-white">Trouvez un événement</button>
+   <button className="p-2 w-46 rounded-full bg-gray-400 hover:bg-red-600 text-white">Afficher les événements</button>
   </div>
   </div>      
         </div>
@@ -54,4 +55,4 @@ function DashboardDonneur(){
     )
 }
 
-export default DashboardDonneur;
+export default DonneurConnexion;

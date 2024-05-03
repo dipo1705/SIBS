@@ -18,6 +18,11 @@ import UpdateSang from './pages/admin-espace/update-sang.jsx';
 import Connexion from './pages/home-espace/login.jsx';
 import Stock from './pages/home-espace/stock.jsx';
 import BoutonConnexion from './pages/home-espace/boutonconnexion.jsx';
+import AddNewwProduct from './pages/home-espace/addnewproduct.jsx';
+import UpdateProduct from './pages/home-espace/updateproduct.jsx';
+import BanqueForm from './pages/home-espace/banqueform.jsx';
+import HopitalForm from './pages/home-espace/hopitalform.jsx';
+import DonneurForm from './pages/home-espace/donneurform.jsx';
 
 
 
@@ -58,6 +63,21 @@ const router = createBrowserRouter([
        {
         path: "/stock",
          element: <Stock/>
+       },
+
+       {
+        path: "/banqueform",
+         element: < BanqueForm/>
+       },
+
+       {
+        path: "/hopitalform",
+         element: < HopitalForm/>
+       },
+
+       {
+        path: "/donneurform",
+         element: < DonneurForm/>
        },
 
        {

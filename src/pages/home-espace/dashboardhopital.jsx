@@ -10,7 +10,7 @@ function DashboardHopital(){
         <div class="flex gap-10 pt-10">
             
          <div class="max-w-sm rounded overflow-hidden shadow-lg">
-   <img class="w-full" src="src\assets\Banques-de-sang.jpg" alt="donneur"/>
+   <img class="w-full" src="src\assets\drees_etablissements_de_sante_enquete_2860620_Drupal.jpg" alt="hopital"/>
   <div class="px-6 py-4">
      <div class="font-bold text-xl mb-2">Hôpital</div>
     <p class="text-gray-700 text-base">
@@ -18,7 +18,7 @@ function DashboardHopital(){
     </p>
    </div>
    <div class="px-6 pt-8 pb-2">
-   <button className="p-2 w-32 rounded-full bg-gray-400 hover:bg-red-600 text-white">Inscription</button>
+   <NavLink to = "/hopitalform"><button className="p-2 w-32 rounded-full bg-gray-400 hover:bg-red-600 text-white">Inscription</button></NavLink>
   </div>
 </div>
 
@@ -45,7 +45,7 @@ function DashboardHopital(){
      voir les différents événements de don de sang
     </p>
    </div>
-   <div class="px-6 pt-4 pb-16">
+   <div class="px-6 pt-10 pb-14">
    <button className="p-2 w-46 rounded-full bg-gray-400 hover:bg-red-600 text-white">Regardez les événements</button>
   </div>
   </div>      
