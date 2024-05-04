@@ -9,22 +9,35 @@ function Stock(){
 
     // const Data = Blooddata.blood
     // console.log(Data);
-
-
     const [sang, setSang] = useState([]);
+    console.log(sang);
+  async function getBlood () {
+    try {
+      const response = await axios.get("src/pages/home-espace/bloodData.json");
+      console.log(response.data);
+      setSang(response.data);
+      return response
+    } catch (error) {
+      return error
+    }
+  }
 
-    useEffect( () => {
-      axios.get("src/pages/home-espace/bloodData.json")
-      .then(response => {
-        setSang(response.bloodData)
-      } )
-      .catch(error => {
-        console.error(error )
-      });
-    },
+  getBlood();
 
-    [])
-console.log(sang);
+//     const [sang, setSang] = useState([]);
+
+//     useEffect( () => {
+//       axios.get("src/pages/home-espace/bloodData.json")
+//       .then(response => {
+//         setSang(response.data)
+//       } )
+//       .catch(error => {
+//         console.error(error )
+//       });
+//     },
+
+//     [])
+// console.log(sang);
     const Data = sang
     
 
@@ -55,7 +68,7 @@ console.log(sang);
       </thead>
       <tbody>
       
-      {Data.blood &&  Data.blood.map(blood=>(
+      {Data.blood && Data.blood.map(blood=>(
         <tr key={blood.id}>
               <td className="border border-slate-300 ..." >{blood.id} </td>
               <td className="border border-slate-300 ...">{blood.Banquedesang} </td>
