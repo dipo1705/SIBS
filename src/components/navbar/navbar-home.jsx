@@ -11,7 +11,7 @@ function NavbarHome(){
       
             <nav className="   flex  justify-around items-center   ">
 
-            <img className="w-36 h-36   "  src="src\assets\SIBS_LOGO-removebg-preview.png" alt="logo" />
+            <img className="w-36 h-36   "  src="https://res.cloudinary.com/dz4hmepqo/image/upload/v1714837160/SIBS_LOGO-removebg-preview_dv5yec.png" alt="logo" />
 
             <ul className="flex gap-10  justify-around  ">
 

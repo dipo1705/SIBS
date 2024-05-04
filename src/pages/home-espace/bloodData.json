@@ -3,8 +3,8 @@
     "blood":[
         {
             "id": "1",
-            "Banque de sang":"Maman Yemo",
-            "Type_Produit  ": "sang entier",
+            "Banquedesang":"Maman Yemo",
+            "Type_Produit": "sang entier",
             "Groupe_Sanguin":"O+",
             "Rhésus":"O+",
             "Quantité_Disponible":"10",
@@ -14,21 +14,40 @@
 
         {
             "id": "2",
-            "Banque de sang":"Roi Baudouin",
-            "Type_Produit  ": "globules rouges",
+            "Banquedesang":"Roi Baudouin",
+            "Type_Produit": "globules rouges",
             "Groupe_Sanguin":"A+",
             "Rhésus":"A+",
             "Quantité_Disponible":"30",
             "Prix":"45$"
         },
 
-        {"id": "3",
-        "Banque de sang":"Mabanga",
-        "Type_Produit  ": "plaquettes",
+        {
+        "id": "3",
+        "Banquedesang":"Mabanga",
+        "Type_Produit": "plaquettes",
         "Groupe_Sanguin":"AB+",
         "Rhésus":"AB+",
         "Quantité_Disponible":"50",
         "Prix":"40$"
-        }  
+        },
+        {
+            "id": "4",
+            "Banquedesang":"Mabanga",
+            "Type_Produit": "plaquettes",
+            "Groupe_Sanguin":"AB+",
+            "Rhésus":"AB+",
+            "Quantité_Disponible":"50",
+            "Prix":"40$"
+            },
+            {
+                "id": "5",
+                "Banquedesang":"Mabanga",
+                "Type_Produit": "plaquettes",
+                "Groupe_Sanguin":"AB+",
+                "Rhésus":"AB+",
+                "Quantité_Disponible":"50",
+                "Prix":"40$"
+                }  
     ]
 }
