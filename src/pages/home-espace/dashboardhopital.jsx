@@ -38,7 +38,7 @@ function DashboardHopital(){
         </div>
 
         <div><div class="max-w-sm rounded overflow-hidden shadow-lg">
-   <img class="w-full" src="https://res.cloudinary.com/dz4hmepqo/image/upload/v1714760187/banque_de_sang_stock_wlozmh.jpg" alt="don de sang"/>
+   <img class="w-full" src="https://res.cloudinary.com/dz4hmepqo/image/upload/v1714760297/Dondusang_actu_szdguz.jpg" alt="don de sang"/>
   <div class="px-6 py-4">
      <div class="font-bold text-xl mb-2 pt-2 pb-2">Evénements</div>
     <p class="text-gray-700 text-base pt-2">
