@@ -23,6 +23,8 @@ import UpdateProduct from './pages/home-espace/updateproduct.jsx';
 import BanqueForm from './pages/home-espace/banqueform.jsx';
 import HopitalForm from './pages/home-espace/hopitalform.jsx';
 import DonneurForm from './pages/home-espace/donneurform.jsx';
+import Rendezvous from './pages/home-espace/rdvform.jsx';
+import Searchevent from './pages/home-espace/searchevent.jsx';
 
 
 
@@ -78,6 +80,21 @@ const router = createBrowserRouter([
        {
         path: "/donneurform",
          element: < DonneurForm/>
+       },
+
+       {
+        path: "/rdvform",
+         element: < Rendezvous/>
+       },
+
+      //  {
+      //   path: "/eventcard",
+      //    element: < Event/>
+      //  },
+
+      {
+        path: "/searchevent",
+         element: < Searchevent/>
        },
 
        {
