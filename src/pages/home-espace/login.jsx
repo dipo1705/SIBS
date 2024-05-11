@@ -46,12 +46,12 @@ function Connexion() {
                   Mot de Passe
                 </label>
                 <div className="text-sm">
-                  <a
+                <NavLink to="/resetpassword"><a
                     href="#"
                     className="font-semibold text-indigo-600 hover:text-indigo-500"
                   >
                     Mot de Passe oublié?
-                  </a>
+                  </a></NavLink>
                 </div>
               </div>
               <div className="mt-2">

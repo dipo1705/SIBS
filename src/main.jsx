@@ -25,6 +25,8 @@ import HopitalForm from './pages/home-espace/hopitalform.jsx';
 import DonneurForm from './pages/home-espace/donneurform.jsx';
 import Rendezvous from './pages/home-espace/rdvform.jsx';
 import Searchevent from './pages/home-espace/searchevent.jsx';
+import Resetpassword from './pages/home-espace/resetpassword.jsx';
+
 
 
 
@@ -87,15 +89,18 @@ const router = createBrowserRouter([
          element: < Rendezvous/>
        },
 
-      //  {
-      //   path: "/eventcard",
-      //    element: < Event/>
-      //  },
 
       {
         path: "/searchevent",
          element: < Searchevent/>
        },
+
+       {
+        path: "/resetpassword",
+         element: < Resetpassword/>
+       },
+
+      
 
        {
         path: "/connexion",
