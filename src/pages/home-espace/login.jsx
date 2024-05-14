@@ -78,12 +78,12 @@ function Connexion() {
 
           <p className="mt-10 text-center text-sm text-gray-500">
             Vous n'avez pas de compte?{" "}
-            <a
+            <NavLink to="/dashboardinscription"><a
               href="#"
               className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
             >
               Commencez par vous inscrire
-            </a>
+            </a></NavLink>
           </p>
         </div>
       </div>

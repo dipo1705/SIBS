@@ -26,6 +26,7 @@ import DonneurForm from './pages/home-espace/donneurform.jsx';
 import Rendezvous from './pages/home-espace/rdvform.jsx';
 import Searchevent from './pages/home-espace/searchevent.jsx';
 import Resetpassword from './pages/home-espace/resetpassword.jsx';
+import DashboardInscription from './pages/home-espace/dashboardinscription.jsx';
 
 
 
@@ -96,9 +97,16 @@ const router = createBrowserRouter([
        },
 
        {
+        path: "/dashboardinscription",
+         element: < DashboardInscription/>
+       },
+
+       {
         path: "/resetpassword",
          element: < Resetpassword/>
        },
+
+       
 
       
 
