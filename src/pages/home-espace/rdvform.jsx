@@ -72,7 +72,7 @@ function Rendezvous(){
         </div>
         <div class="flex items-center justify-center mb-4">
             <button
-                class="bg-red-600 text-white py-2 px-4 rounded hover:bg-gray-800 focus:outline-none focus:shadow-outline"
+                class="bg-red-600 text-white py-2 px-4 rounded hover:bg-gray-600 focus:outline-none focus:shadow-outline"
                 type="submit">
                 Prenez rendez-vous
             </button>
