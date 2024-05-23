@@ -2,7 +2,7 @@ import NavbarHome from "../../components/navbar/navbar-home";
 
 import React, { useState } from "react";
 import axios from "axios";
-import {Link, NavLink, useNavigate} from "react-router-dom"
+import {NavLink, useNavigate} from "react-router-dom"
 
 function Connexion() {
 
@@ -21,7 +21,7 @@ function Connexion() {
       if (response.data.token) {
         // Connexion réussie, rediriger vers la page d'accueil avec un message
         alert('Connexion réussie');
-        navigate('/')
+        navigate('/home')
        
       } else {
         setError('Erreur lors de la connexion');
@@ -44,10 +44,12 @@ function Connexion() {
               Continuez la visite
             </button>
           </NavLink>
+          {error && <p className="text-red-500 mb-4 sm-5">{error}</p>}
         </div>
+        
 
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm pt-5 pb-10">
-          <form className="space-y-6 " action="#" method="POST">
+          <form className="space-y-6 " onSubmit={handleLogin}>
             <div>
               <label
                 htmlFor="email"
