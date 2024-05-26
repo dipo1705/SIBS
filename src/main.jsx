@@ -72,6 +72,11 @@ const router = createBrowserRouter([
        },
 
        {
+        path: "/addnewproduct",
+         element: <AddNewwProduct/>
+       },
+
+       {
         path: "/banqueform",
          element: < BanqueForm/>
        },

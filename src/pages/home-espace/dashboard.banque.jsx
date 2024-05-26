@@ -23,13 +23,13 @@ function DashboardBanque(){
         <div><div class="max-w-sm rounded overflow-hidden shadow-lg">
    <img class="w-full h-62" src= "https://res.cloudinary.com/dz4hmepqo/image/upload/v1714760187/banque_de_sang_stock_wlozmh.jpg" alt="rdv"/>
   <div class="px-6 py-4">
-     <div class="font-bold text-xl mb-2 pt-2 pb-3">Voir le stock</div>
+     <div class="font-bold text-xl mb-2 pt-2 pb-3">Ajouter un produit sanguin</div>
     <p class="text-gray-700 text-base">
-    Parcourez ce lien pour voir le stock,vous pouvez ajouter vos produits sanguin aussi
+    Utilisez ce formulaire pour Ajouter, Modifier, Supprimer vos produits sanguins
     </p>
    </div>
    <div class="px-6 pt-11  pb-16">
-   <NavLink to = "/stock"><button className="p-2 w-46 rounded-full bg-gray-400 hover:bg-red-600 text-white">Regarder le Stock</button></NavLink>
+   <NavLink to = "/addnewproduct"><button className="p-2 w-46 rounded-full bg-gray-400 hover:bg-red-600 text-white">Ajouter un produit</button></NavLink>
   </div>
   </div>
 
