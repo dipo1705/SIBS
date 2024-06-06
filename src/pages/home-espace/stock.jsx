@@ -1,6 +1,7 @@
 import Blooddata from "./bloodData.json"
 import axios from "axios";
 import { useState, useEffect} from "react";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -77,7 +78,7 @@ function Stock(){
               <td className="border border-slate-300 ...">{blood.Rhésus} </td>
               <td className="border border-slate-300 ...">{blood.Quantité_Disponible} </td>
               <td className="border border-slate-300 ...">{blood.Prix} </td>
-              <td className="border border-slate-300 ..."><button className="p-2 w-25 rounded-full bg-gray-400 hover:bg-red-600 text-white">Acheter</button></td>
+              <td className="border border-slate-300 ..."><NavLink to = "/achatform"><button className="p-2 w-25 rounded-full bg-gray-400 hover:bg-red-600 text-white">Acheter</button></NavLink></td>
 
                         </tr>
 

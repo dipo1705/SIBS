@@ -28,6 +28,7 @@ import Searchevent from './pages/home-espace/searchevent.jsx';
 import Resetpassword from './pages/home-espace/resetpassword.jsx';
 import DashboardInscription from './pages/home-espace/dashboardinscription.jsx';
 import ContactForm from './pages/home-espace/contactform.jsx';
+import AchatForm from './pages/home-espace/achatform.jsx';
 
 
 
@@ -115,6 +116,11 @@ const router = createBrowserRouter([
        {
         path: "/contactform",
          element: < ContactForm/>
+       },
+
+       {
+        path: "/achatform",
+         element: < AchatForm/>
        },
 
 
