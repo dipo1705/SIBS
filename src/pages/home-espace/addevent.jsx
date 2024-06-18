@@ -1,20 +1,24 @@
 
 
-function Rendezvous(){
+
+
+
+
+function Event(){
     return(
 
 <div class="max-w-md mx-auto mt-10 bg-white shadow-lg rounded-lg overflow-hidden">
     <div class="text-2xl py-4 px-6 bg-red-600 text-white text-center font-bold uppercase">
-        Prendre un Rendez-vous
+        Ajouter un événement
     </div>
     <form class="py-4 px-6" action="" method="POST">
         <div class="mb-4">
             <label class="block text-gray-700 font-bold mb-2" for="name">
-                Nom
+                Nom de l'événement
             </label>
             <input
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="name" type="text" placeholder="Entrer votre nom"/>
+                id="name" type="text" placeholder="Entrer le nom de l'événement"/>
         </div>
         <div class="mb-4">
             <label class="block text-gray-700 font-bold mb-2" for="email">
@@ -26,11 +30,11 @@ function Rendezvous(){
         </div>
         <div class="mb-4">
             <label class="block text-gray-700 font-bold mb-2" for="phone">
-                Telephone
+                Lieu
             </label>
             <input
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="phone" type="tel" placeholder="+243 82 21 34 550"/>
+                id="phone" type="tel" placeholder="Lieu + Adresse"/>
         </div>
         <div class="mb-4">
             <label class="block text-gray-700 font-bold mb-2" for="date">
@@ -48,33 +52,20 @@ function Rendezvous(){
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="time" type="time" placeholder="Préciser l'heure"/>
         </div>
-        <div class="mb-4">
-            <label class="block text-gray-700 font-bold mb-2" for="service">
-                Banques de sang
-            </label>
-            <select
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="service" name="service">
-                <option value="">choisissez une Banque de sang</option>
-                <option value="haircut">Maman Yemo</option>
-                <option value="coloring">Mabanga</option>
-                <option value="styling">Bandalungwa</option>
-                <option value="facial">Maman Mobokoli</option>
-            </select>
-        </div>
+       
         <div class="mb-4">
             <label class="block text-gray-700 font-bold mb-2" for="message">
                 Message
             </label>
             <textarea
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="message" rows="4" placeholder="Enter any additional information"></textarea>
+                id="message" rows="4" placeholder="information additionnelle"></textarea>
         </div>
         <div class="flex items-center justify-center mb-4">
             <button
                 class="bg-red-600 text-white py-2 px-4 rounded hover:bg-gray-600 focus:outline-none focus:shadow-outline"
                 type="submit">
-                Prenez rendez-vous
+                Ajouter événement
             </button>
         </div>
 
@@ -83,4 +74,4 @@ function Rendezvous(){
     )
 }
 
-export default Rendezvous;
+export default Event;

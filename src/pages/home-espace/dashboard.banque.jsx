@@ -44,7 +44,7 @@ function DashboardBanque(){
     </p>
    </div>
    <div class="px-6 pt-10 pb-16">
-   <NavLink to = "/eventcard"><button className="p-2 w-46 rounded-full bg-gray-400 hover:bg-red-600 text-white">Regardez les événements</button></NavLink>
+   <NavLink to = "/addevent"><button className="p-2 w-46 rounded-full bg-gray-400 hover:bg-red-600 text-white">Ajouter les événements</button></NavLink>
   </div>
   </div>      
         </div>

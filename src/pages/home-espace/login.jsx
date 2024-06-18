@@ -114,7 +114,7 @@ function Connexion() {
 
           <p className="mt-10 text-center text-sm text-gray-500">
             Vous n'avez pas de compte?{" "}
-            <NavLink to="/dashboardinscription"><a
+            <NavLink to="/registerform"><a
               href="#"
               className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
             >

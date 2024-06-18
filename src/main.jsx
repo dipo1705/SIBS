@@ -29,6 +29,9 @@ import Resetpassword from './pages/home-espace/resetpassword.jsx';
 import DashboardInscription from './pages/home-espace/dashboardinscription.jsx';
 import ContactForm from './pages/home-espace/contactform.jsx';
 import AchatForm from './pages/home-espace/achatform.jsx';
+import RegisterForm from './pages/home-espace/registerform.jsx';
+import Event from './pages/home-espace/addevent.jsx';
+
 
 
 
@@ -109,6 +112,11 @@ const router = createBrowserRouter([
        },
 
        {
+        path: "/registerform",
+         element: < RegisterForm/>
+       },
+
+       {
         path: "/resetpassword",
          element: < Resetpassword/>
        },
@@ -123,6 +131,11 @@ const router = createBrowserRouter([
          element: < AchatForm/>
        },
 
+       
+       {
+        path: "/addevent",
+         element: < Event/>
+       },
 
        {
         path: "/connexion",
