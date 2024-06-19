@@ -45,7 +45,7 @@ function DashboardDonneur(){
     </p>
    </div>
    <div class="px-6 pt-5 pb-11">
-   <NavLink to = "/searchevent"><button className="p-2 w-46 rounded-full bg-gray-400 hover:bg-red-600 text-white">Trouvez un événement</button></NavLink>
+   <NavLink to = "/findevent"><button className="p-2 w-46 rounded-full bg-gray-400 hover:bg-red-600 text-white">Trouvez un événement</button></NavLink>
   </div>
   </div>      
         </div>

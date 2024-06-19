@@ -31,6 +31,7 @@ import ContactForm from './pages/home-espace/contactform.jsx';
 import AchatForm from './pages/home-espace/achatform.jsx';
 import RegisterForm from './pages/home-espace/registerform.jsx';
 import Event from './pages/home-espace/addevent.jsx';
+import Findevent from './pages/home-espace/findevent.jsx';
 
 
 
@@ -135,6 +136,11 @@ const router = createBrowserRouter([
        {
         path: "/addevent",
          element: < Event/>
+       },
+
+       {
+        path: "/findevent",
+         element: < Findevent/>
        },
 
        {

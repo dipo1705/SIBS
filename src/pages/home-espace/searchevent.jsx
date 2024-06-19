@@ -2,7 +2,10 @@
 
 function Searchevent(){
 
+    <h1 class=" pt-3 pb-0 bg-gray-300 bg-red-600 text-center text-white" >Rechercher un événement</h1>
+
     return(
+
 
         <div class="p-4 text-gray-600 outline-none focus:outline-none ">
     <div class="relative flex">
@@ -39,6 +42,12 @@ function Searchevent(){
         </button>
     </div>
 </div>
+
+
+
+
+
+
 
     )
 }

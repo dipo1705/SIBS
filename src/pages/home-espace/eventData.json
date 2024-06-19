@@ -1,0 +1,26 @@
+{
+    "current-user":[{}],
+    "event":[
+        {
+            "id": "1",
+            "Nom_evenement":"Y a du plaisir à donner",
+            "Lieu": "Médecin de nuit, Gombe, Socimat",
+            "Date":"30-06-24",
+            "Heure":"11H00",
+            "Message":"Faite un don de sang bénevolement"
+            
+            
+        },
+
+        {
+            "id": "2",
+            "Nom_evenement":"Marathon des donneurs de sang",
+            "Lieu": "Clinique Ngaliema, Gombe",
+            "Date":"25-06-24",
+            "Heure":"14H00",
+            "Message":"Faite un don de sang pour sauver des vies"
+        }
+
+        
+    ]
+}
