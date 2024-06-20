@@ -32,6 +32,7 @@ import AchatForm from './pages/home-espace/achatform.jsx';
 import RegisterForm from './pages/home-espace/registerform.jsx';
 import Event from './pages/home-espace/addevent.jsx';
 import Findevent from './pages/home-espace/findevent.jsx';
+import Registerevent from './pages/home-espace/registerevent.jsx';
 
 
 
@@ -141,6 +142,11 @@ const router = createBrowserRouter([
        {
         path: "/findevent",
          element: < Findevent/>
+       },
+
+       {
+        path: "/registerevent",
+         element: < Registerevent/>
        },
 
        {

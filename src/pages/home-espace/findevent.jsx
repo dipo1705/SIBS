@@ -60,7 +60,7 @@ function Findevent(){
             <td className="border border-slate-300 ...">{event.Date} </td>
             <td className="border border-slate-300 ...">{event.Heure} </td>
             <td className="border border-slate-300 ...">{event.Message} </td>
-            <td className="border border-slate-300 ..."><NavLink to = "/achatform"><button className="p-2 w-25 rounded-full bg-gray-400 hover:bg-red-600 text-white">S'enregistrer</button></NavLink></td>
+            <td className="border border-slate-300 ..."><NavLink to = "/registerevent"><button className="p-2 w-25 rounded-full bg-gray-400 hover:bg-red-600 text-white">S'enregistrer</button></NavLink></td>
 
                       </tr>
 
